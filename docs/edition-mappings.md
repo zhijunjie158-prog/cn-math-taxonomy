@@ -75,6 +75,7 @@
 
 ## 现状和限制
 
+- 小学数学苏教对照在 `data/mappings/sujiao_math.json`，仍是 `draft`。2026-11-09 按公开目录核对过的册次、改过的单元名，以及目录里找不到单元名的知识点，写在 [sujiao-primary-alignment.md](sujiao-primary-alignment.md)。`topics.json` 的 `grade` / `semester` / `chapter` 仍是人教版，没有把 draft 抄进各知识点的 `mappings`。
 - 前端目前**不读取**对照数据：图谱、诊断仍按人教版的年级册次显示。孩子档案里「教材版本」只是备注（见 `docs/pwa.md`）。
 - 之后做前端时的约定：选了非人教版、而某知识点没有对应 `mappings` 时，仍按人教版的年级显示，并提示「该版本映射尚未补齐」；不会因为缺映射隐藏知识点。
 - 对照表覆盖不全是正常状态，不要为了凑满而填占位值。

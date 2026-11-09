@@ -116,7 +116,7 @@ data/topics.json         知识点节点（JSON 数组）
 data/dependencies.json   先修边（JSON 数组）
 data/cn-curriculum-standards.json  课标（数学 314 + 英语 116 + 物理 197（初中 89 + 高中 108）+ 语文 32 条 ccs-2022（小学 20 + 初中第四学段 12），另有科学、道德与法治，以及历史 19 条 chs-2022、地理 22 条 cgs-2022、生物 18 条 cbs-2022；高中数学已记人教社转载的 2020 年修订版 PDF 印刷页，条文仍是转述。英语语音、词汇、语法已记人教社印刷页或转载 PDF，日常表达和读写仍待核。历史、地理和生物页码待核。语文 ccs-2022 记人教社电子书印刷页，条文仍是转述）
 data/id-aliases.json               旧 id cnm_ext_001…018 → 小学正式知识点（方案 b，节点已删除）
-data/mappings/             教材版本对照表（可选，沪教、苏教等；现只有一个占位示例 hujiao_math.example.json），说明见 docs/edition-mappings.md
+data/mappings/             教材版本对照表（可选）。小学数学苏教为 `sujiao_math.json`（draft，核对记录见 docs/sujiao-primary-alignment.md）；另有沪教等对照和占位示例。说明见 docs/edition-mappings.md
 docs/standards-mapping.md          课标对齐说明：来源、映射规则、覆盖率、未映射清单、局限
 data/questions.json      题库：数学 3627 题 + 英语 3164 题（小学 1100 + 初中 1028 + 高中 1036）+ 物理 1076 题（初中 368 + 高中 708）+ 语文 2728 题（小学 1972 + 初中 756）+ 历史 536 题 + 地理 236 题 + 生物 264 题等；另有科学、道德与法治，以文件为准
 data/_qbatches/primary_g1.json … primary_g6.json、high.json、high_sel.json   生成批次（保留，便于对照；不部署）
